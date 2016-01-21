@@ -120,7 +120,8 @@ a:focus {
     margin-bottom: 100px;
 }
 .photos-small {
-    width: 100%;
+    max-width: 100%;
+    overflow: scroll;
     margin: none;
     padding: none;
 }
