@@ -121,7 +121,7 @@ a:focus {
 }
 .photos-small {
     max-width: 100%;
-    overflow: scroll;
+    overflow: auto;
     margin: none;
     padding: none;
 }
