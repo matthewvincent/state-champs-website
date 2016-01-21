@@ -1,0 +1,626 @@
+/*!
+ * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #fff;
+    background-color: #2a2f2d;
+    background: #2a2f2d url("../img/pattern.png") repeat left top;
+    background-size: 18px 18px;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 35px;
+    text-transform: uppercase;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    letter-spacing: 1px;
+}
+
+p {
+    margin: 0 0 25px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+@media(min-width:768px) {
+    p {
+        margin: 0 0 35px;
+        font-size: 20px;
+        line-height: 1.6;
+    }
+}
+
+a {
+    color: #edd282;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: #edd282;
+}
+#merch {
+    text-align: center;
+    margin-top: -300px;
+}
+#merch h1 {
+    font-weight: normal;
+    border: 1px solid white;
+    padding: 10px;
+    margin: 50px;
+    margin-top: 200px;
+}
+.merch-logo {
+    max-width: 600px;
+    margin: 10px;
+    padding: 10px;
+}
+.tour-dates {
+    overflow: auto;
+}
+#music-link-wrapper {
+    margin-top: -30px;
+}
+#listen-now {
+    padding: 10px;
+    border-bottom: 2px solid white;
+}
+#listen-links {
+    margin-top: -20px;
+}
+.header {
+    display: block;
+    text-align: center;
+    -webkit-box-shadow: 0 8px 6px -6px #242424;
+       -moz-box-shadow: 0 8px 6px -6px #242424;
+            box-shadow: 0 8px 6px -6px #242424;
+    border: 1px solid rgba(255,255,255,.4);
+    background-color: rgba(255,255,255,.2);
+}
+#photos-header {
+    height: 800px;
+    background: url(../img/promo1.jpg) no-repeat top center scroll;
+    width: 100%;
+    display: table;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+#photos-header h1 {
+    margin-top: 200px;
+    font-size: 60px;
+}
+#photos {
+    padding: none;
+    margin-bottom: 100px;
+}
+.photos-small {
+    width: 100%;
+    margin: none;
+    padding: none;
+}
+.album-logo {
+    fill: white;
+    display: inherit;
+    width: 1000px;
+}
+.filler {
+    height: 370px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+#myModal {
+    margin-top: 100px;
+}
+#myModal .close {
+    color: white;
+    opacity: 1;
+}
+#flame-logo {
+    margin-top: -10px;
+    width: 50px;
+}
+.light {
+    font-weight: 400;
+}
+
+.navbar-custom {
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    text-transform: uppercase;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: rgba(0,0,0,.5);
+
+}
+
+.navbar-custom .navbar-brand {
+    width: 20px;
+}
+
+.navbar-custom .navbar-brand:focus {
+    outline: 0;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle {
+    padding: 4px 6px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle:focus,
+.navbar-custom .navbar-brand .navbar-toggle:active {
+    outline: 0;
+}
+
+.navbar-custom a {
+    color: #fff;
+}
+
+.navbar-custom .nav li a {
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.navbar-custom .nav li a:hover {
+    outline: 0;
+    color: #edd282;
+    background-color: transparent;
+}
+
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a:active {
+    outline: 0;
+    background-color: transparent;
+}
+
+.navbar-custom .nav li.active {
+    outline: 0;
+}
+
+.navbar-custom .nav li.active a {
+    background-color: rgba(255,255,255,.3);
+}
+
+.navbar-custom .nav li.active a:hover {
+    color: #fff;
+}
+
+@media(min-width:768px) {
+    .navbar-custom {
+        padding: 20px 0;
+        border-bottom: 0;
+        letter-spacing: 1px;
+        background: 0 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .navbar-custom.top-nav-collapse {
+        padding: 0;
+        border-bottom: 1px solid rgba(255,255,255,.3);
+        background: rgba(0,0,0,.8);
+    }
+    .button-break {
+        display: none;
+    }
+    .intro-wrapper {
+        display: none;
+    }
+
+}
+
+.intro {
+    display: table;
+    width: 100%;
+    height: 100%;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    background: url(../img/live2.jpg) no-repeat bottom center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.intro-wrapper {
+    overflow: hidden;
+}
+.intro-body {
+    overflow: hidden;
+}
+.main-logo {
+    max-width: 600px;
+    margin-bottom: 100px;
+}
+.second-logo {
+    color: white;
+    width: 400px;
+}
+.intro .intro-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.intro .intro-body .brand-heading {
+    font-size: 40px;
+}
+
+.intro .intro-body .intro-text {
+    font-size: 18px;
+}
+
+@media(min-width:768px) {
+    .intro {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .intro .intro-body .brand-heading {
+        font-size: 100px;
+    }
+
+    .intro .intro-body .intro-text {
+        font-size: 26px;
+    }
+
+}
+
+.btn-circle {
+    width: 80px;
+    height: 80px;
+    margin-top: 15px;
+    padding: 5px 16px;
+    border-radius: 100%!important;
+    font-size: 60px;
+    color: #fff;
+    background: 0 0;
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+    -webkit-animation-name: pulse;
+    -moz-animation-name: pulse;
+    -webkit-animation-duration: 1.5s;
+    -moz-animation-duration: 1.5s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+}
+
+.btn-circle:hover,
+.btn-circle:focus {
+    outline: 0;
+    color: #fff;
+    opacity: .8;
+
+}
+
+.btn-circle i.animated {
+    -webkit-transition-property: -webkit-transform;
+    -webkit-transition-duration: 1s;
+    -moz-transition-property: -moz-transform;
+    -moz-transition-duration: 1s;
+}
+
+.btn-circle:hover i.animated {
+
+}
+
+@-webkit-keyframes pulse {    
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@-moz-keyframes pulse {    
+    0% {
+        -moz-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        -moz-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+
+    100% {
+        -moz-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+.content-section {
+    padding-top: 100px;
+}
+
+.download-section {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background: url(../img/live4.jpg) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+
+@media(min-width:767px) {
+    .content-section {
+        padding-top: 250px;
+    }
+
+    .download-section {
+        padding: 100px 0;
+        height: 1200px;
+    }
+
+}
+
+.btn {
+    text-transform: uppercase;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    margin: 4px;
+    border-radius: 40px;
+}
+.spotify {
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.apple-music {
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.soundcloud {
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.spotify:hover {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7cb743+0,94c93d+40,a9d03f+100 */
+    background: rgb(124,183,67); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(124,183,67,1) 0%, rgba(148,201,61,1) 40%, rgba(169,208,63,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(124,183,67,1) 0%,rgba(148,201,61,1) 40%,rgba(169,208,63,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(124,183,67,1) 0%,rgba(148,201,61,1) 40%,rgba(169,208,63,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7cb743', endColorstr='#a9d03f',GradientType=0 ); /* IE6-9 */
+}
+.apple-music:hover {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff2358+0,fe4147+40,ff563c+100 */
+    background: rgb(255,35,88); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(255,35,88,1) 0%, rgba(254,65,71,1) 40%, rgba(255,86,60,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(255,35,88,1) 0%,rgba(254,65,71,1) 40%,rgba(255,86,60,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(255,35,88,1) 0%,rgba(254,65,71,1) 40%,rgba(255,86,60,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff2358', endColorstr='#ff563c',GradientType=0 ); /* IE6-9 */
+}
+.soundcloud:hover {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff3300+0,fe4d00+40,ff8800+100 */
+    background: rgb(255,51,0); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(255,51,0,1) 0%, rgba(254,77,0,1) 40%, rgba(255,136,0,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(255,51,0,1) 0%,rgba(254,77,0,1) 40%,rgba(255,136,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(255,51,0,1) 0%,rgba(254,77,0,1) 40%,rgba(255,136,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3300', endColorstr='#ff8800',GradientType=0 ); /* IE6-9 */
+
+}
+
+.btn-default {
+    border: 1px solid white;
+    color: white;
+    background-color: transparent;
+}
+
+.btn-default:hover,
+.btn-default:focus {
+    color: white;
+    border: 1px solid rgba(255,255,255,.4);
+    outline: 0;
+}
+
+ul.banner-social-buttons {
+    margin-top: 0;
+}
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:767px) {
+    ul.banner-social-buttons li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons li:last-child {
+        margin-bottom: 0;
+    }
+    .button-break {
+        display: static;
+    }
+    .download-section {
+        width: 100%;
+        height: 100%;
+    }
+    .intro {
+        overflow-x: hidden;
+        
+    }
+    .intro-content{
+        margin-left: -15px;
+    }
+    .main-intro {
+        display: none;
+    }
+    #photos-header {
+        background: url(../img/promo1small.jpg) no-repeat top center scroll;
+        width: 100%;
+        height: 100%;
+        display: table;
+        padding: 100px 0;
+        text-align: center;
+        color: #fff;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+    #photos-header h1 {
+        margin-top: 150px;
+        font-size: 30px;
+    }
+    .merch-logo {
+        width: 300px;
+    }
+    #merch {
+        margin-top: 0px;
+    }
+    #merch h1 {
+        font-size: 30px;
+        margin: 20px;
+    }
+    
+}
+
+footer {
+    padding: 50px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+::-moz-selection {
+    text-shadow: none;
+    background: #edd282;
+    background: rgba(255,255,255,.2);
+}
+
+::selection {
+    text-shadow: none;
+    background: #edd282;
+    background: rgba(255,255,255,.2);
+}
+
+img::selection {
+    background: 0 0;
+}
+
+img::-moz-selection {
+    background: 0 0;
+}
+
+body {
+    webkit-tap-highlight-color: rgba(255,255,255,.2);
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#social {
+    padding-top: 50px;
+    height: 200px;
+    width: 100%;
+    margin-bottom: -100px;
+}
+#social-links li {
+    list-style-type: none;
+    text-align: center;
+    padding: .5em;
+    display: inline-block;
+    margin: auto;
+
+}
+
+.social-wrapper {
+    margin-right: 30px;
+}
+.social-button {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: transparent;
+    text-align: center;
+    padding-top: 8px;
+    color: white;
+    border: solid white 2px;
+    opacity: .6;
+
+}
+.social-button:hover {
+    background: auto;
+    background-color: rgba(255,255,255,.1);
+    color: white;
+    opacity: 1;
+     -webkit-box-shadow: 0 8px 6px -6px #242424;
+       -moz-box-shadow: 0 8px 6px -6px #242424;
+            box-shadow: 0 8px 6px -6px #242424;
+}
+.music-link {
+    padding-right: 8px;
+}
+
